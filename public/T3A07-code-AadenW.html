@@ -1,9 +1,13 @@
 <h1 align=center>T3A07-code-Aadenw.html</h1><br>
 
 <input type=button value="Move 10 pixels right" onClick="{
-   alert(   parseInt(document.getElementById('Span01').style.left)   )
-    document.getElementById('Span01').style.left = '110px'                                                   
+   // alert(   parseInt(document.getElementById('Span01').style.left)   )
+    
+    document.getElementById('Span01').style.left = 
+      parseInt(document.getElementById('Span01').style.left) + 10                                                    
 
 }">
 
 <span id="Span01" style="position:absolute; left:100; top:150;"> span 1</span><br>
+<span id="Span02" style="position:absolute; left:100; top:150;"> span 2</span><br>
+
