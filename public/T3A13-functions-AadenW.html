@@ -1,11 +1,14 @@
 <h1 align=center> T3A13-functions-AadenW.html </h1>
-<h3> Version 0.0.4 </h3>
+<h3> Version 0.0.5 </h3>
 
 <script>
 function Basic(){
    document.getElementById('Span01').innerHTML = "Epic"
 }
-function Advanced(x,y){
+function AdvancedTimes(x,y){
+    return x*y
+}
+function AdvancedDivide(x,y){
     return x/y
 }
 </script>
@@ -15,8 +18,11 @@ function Advanced(x,y){
    //alert('button works')
    Basic()                                              
 }"><br><br>
-<input type=button value="Advanced" onclick="{
-      document.getElementById('Span01').innerHTML = Advanced(6,2)                                       
+<input type=button value="Multiply 6 & 2" onclick="{
+      document.getElementById('Span01').innerHTML = AdvancedTimes(6,2)                                       
+}"><br><br>
+<input type=button value="Divide 6 & 2" onclick="{
+      document.getElementById('Span01').innerHTML = AdvancedDivide(6,2)                                       
 }"><br><br>
 <span id="Span01">...</span><br><br>
 
