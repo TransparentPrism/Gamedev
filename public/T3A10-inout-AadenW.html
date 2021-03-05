@@ -2,11 +2,22 @@
 <h3> Version 0.0.1 </h3>
 
 <input id="Text01" type=text value=3 ><br><br>
-<input type=button value="run first" onclick="{
-      x = 5
-                                              
+<input type=button value="run first" onclick="{                                             
      x = document.getElementById('Text01').value
      alert('x: '+ x)
+      document.getElementById('Span01').innerHTML = 'X is '+x
+                                              
 }"><br><br>
 
 <span id="Span01">...</span><br><br>
+
+<input id="Text02" type=text value=3 ><br><br>
+
+<input type=button value="Square X" onclick="{
+    x = document.getElementById('Text02').value
+   //alert('x: '+x)
+   document.getElementById('Span01').innerHTML = x+' <b>squared</b> is ' + x*x
+                                             
+}"><br><br>
+
+<span id="Span02">...</span><br><br>
