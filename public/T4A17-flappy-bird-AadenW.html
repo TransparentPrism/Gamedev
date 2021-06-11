@@ -13,9 +13,9 @@
 // Global variables works anywhere in your code
 
 
-document.myGravity = 10
+document.myGravity = 5
 
-document.myXmove = -5   // amount it moves in pixels
+document.myXmove = -8   // amount it moves in pixels
 document.myYmove = 4
 
 document.myXspeed = 50 // speed as a delay in milliseconds bigger is slower
@@ -50,26 +50,26 @@ function myCheckAll(){
 if (parseInt(document.getElementById('mySpan01').style.top) -5  > window.innerHeight) { 
     document.getElementById('mySpan01').style.top = '100px' 
     alert('You Lose!')
-    location = 'T4A17-flappy-bird-name.html'
+    location = 'T4A17-flappy-bird-AadenW.html'
 }
 
 
   if(myHitOther('mySpan01', 'mySpan02')){
     document.getElementById('mySpan02').style.left = '-400px'
     alert('You Lose!')
-    location = 'T4A17-flappy-bird-name.html'
+    location = 'T4A17-flappy-bird-AadenW.html'
   }
 
   if(myHitOther('mySpan01', 'mySpan03')){
     document.getElementById('mySpan03').style.left = '-400px'
     alert('You Lose!')
-    location = 'T4A17-flappy-bird-name.html'
+    location = 'T4A17-flappy-bird-AadenW.html'
   }
 
   if(myHitOther('mySpan01', 'mySpan04')){
     document.getElementById('mySpan04').style.left = '-400px'
     alert('You Lose!')
-    location = 'T4A17-flappy-bird-name.html'
+    location = 'T4A17-flappy-bird-AadenW.html'
   }
 
 
