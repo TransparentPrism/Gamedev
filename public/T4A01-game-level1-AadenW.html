@@ -46,26 +46,26 @@ function myHitOther(my1,my2){
 function myCheckAll(){
 
 
-if (parseInt(document.getElementById('mySpan01').style.top) -5  > window.innerHeight) { 
-    document.getElementById('mySpan01').style.top = '100px' 
+if (parseInt(document.getElementById('Player.png').style.top) -5  > window.innerHeight) { 
+    document.getElementById('Player.png').style.top = '100px' 
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
 }
 
 
-  if(myHitOther('mySpan01', 'mySpan02')){
+  if(myHitOther('Player.png', 'mySpan02')){
     document.getElementById('mySpan02').style.left = '-400px'
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
   }
 
-  if(myHitOther('mySpan01', 'mySpan03')){
+  if(myHitOther('Player.png', 'mySpan03')){
     document.getElementById('mySpan03').style.left = '-400px'
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
   }
 
-  if(myHitOther('mySpan01', 'mySpan04')){
+  if(myHitOther('Player.png', 'mySpan04')){
     document.getElementById('mySpan04').style.left = '-400px'
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
@@ -73,7 +73,7 @@ if (parseInt(document.getElementById('mySpan01').style.top) -5  > window.innerHe
 
 
 
-  if(myHitOther('mySpan01', 'mySpan200')){
+  if(myHitOther('Player.png', 'mySpan200')){
     document.getElementById('mySpan03').style.left = '-400px'
     alert('You Win!')
     location = 'https://google.ca'
@@ -86,7 +86,7 @@ if (parseInt(document.getElementById('mySpan01').style.top) -5  > window.innerHe
 
 function myXAuto(){
 
-  document.getElementById('mySpan01').style.top = parseInt(document.getElementById('mySpan01').style.top) + document.myGravity
+  document.getElementById('Player.png').style.top = parseInt(document.getElementById('Player.png').style.top) + document.myGravity
 
   document.getElementById('mySpan02').style.left = parseInt(document.getElementById('mySpan02').style.left) + document.myXmove 
  
@@ -108,7 +108,7 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 
 
 
-   <h3 align+center>Version 0.0.3</h3>
+   <h3 align+center>Version 0.0.4</h3>
 <h1 align=center>T4A17-flappy-bird-AadenW.html</h1>
 
 
