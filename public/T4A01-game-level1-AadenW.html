@@ -136,6 +136,43 @@ if (parseInt(document.getElementById('Player').style.top) -5  > window.innerHeig
     alert('You Lose!')
     location = 'T4A01-game-level1-AadenW.html'
   }
+   
+  if(myHitOther('Player', 'Wall16')){
+    document.getElementById('Wall16').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A01-game-level1-AadenW.html'
+  }
+  
+  if(myHitOther('Player', 'Wall17')){
+    document.getElementById('Wall17').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A01-game-level1-AadenW.html'
+  }
+   
+  if(myHitOther('Player', 'Wall18')){
+    document.getElementById('Wall18').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A01-game-level1-AadenW.html'
+  }
+  
+  if(myHitOther('Player', 'Wall19')){
+    document.getElementById('Wall19').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A01-game-level1-AadenW.html'
+  }
+   
+  if(myHitOther('Player', 'Wall20')){
+    document.getElementById('Wall20').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A01-game-level1-AadenW.html'
+  }
+  
+  if(myHitOther('Player', 'Wall21')){
+    document.getElementById('Wall21').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A01-game-level1-AadenW.html'
+  }
+  
 
   if(myHitOther('Player', 'Star')){
     document.getElementById('Star').style.left = '-400px'
@@ -180,6 +217,18 @@ function myXAuto(){
   document.getElementById('Wall14').style.left = parseInt(document.getElementById('Wall14').style.left) + document.myXmove  
   
   document.getElementById('Wall15').style.left = parseInt(document.getElementById('Wall15').style.left) + document.myXmove
+   
+  document.getElementById('Wall16').style.left = parseInt(document.getElementById('Wall16').style.left) + document.myXmove  
+  
+  document.getElementById('Wall17').style.left = parseInt(document.getElementById('Wall17').style.left) + document.myXmove
+   
+  document.getElementById('Wall18').style.left = parseInt(document.getElementById('Wall18').style.left) + document.myXmove  
+  
+  document.getElementById('Wall19').style.left = parseInt(document.getElementById('Wall19').style.left) + document.myXmove
+   
+  document.getElementById('Wall20').style.left = parseInt(document.getElementById('Wall20').style.left) + document.myXmove  
+  
+  document.getElementById('Wall21').style.left = parseInt(document.getElementById('Wall21').style.left) + document.myXmove
 
   document.getElementById('Star').style.left = parseInt(document.getElementById('Star').style.left) + document.myXmove 
 
@@ -197,7 +246,7 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 
 
 
-   <h3 align+center>Version 0.0.2</h3>
+   <h3 align+center>Version 3.0.0</h3>
 <h1 align=center>T4A01-game-level1-AadenW.html</h1>
 
 
@@ -239,8 +288,20 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 <img  id="Wall14"  src="Wall.png"  style="position:absolute; left:2400; top:180; width:85; height:100"/> 
 
 <img  id="Wall15"  src="Wall.png"  style="position:absolute; left:2400; top:440; width:85; height:100"/>
+   
+<img  id="Wall16"  src="Wall.png"  style="position:absolute; left:2600; top:200; width:85; height:100"/> 
 
-<img  id="Star"  src="Star.png"  style="position:absolute; left:2700; top:360; width:100; height:100"/>  
+<img  id="Wall17"  src="Wall.png"  style="position:absolute; left:2600; top:460; width:85; height:100"/>
+ 
+<img  id="Wall18"  src="Wall.png"  style="position:absolute; left:2900; top:170; width:85; height:100"/> 
+
+<img  id="Wall19"  src="Wall.png"  style="position:absolute; left:2900; top:430; width:85; height:100"/>
+   
+<img  id="Wall20"  src="Wall.png"  style="position:absolute; left:3200; top:150; width:85; height:100"/> 
+
+<img  id="Wall21"  src="Wall.png"  style="position:absolute; left:3200; top:410; width:85; height:100"/>
+
+<img  id="Star"  src="Star.png"  style="position:absolute; left:3600; top:360; width:100; height:100"/>  
   
 
 
