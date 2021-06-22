@@ -46,38 +46,103 @@ function myHitOther(my1,my2){
 function myCheckAll(){
 
 
-if (parseInt(document.getElementById('Player.png').style.top) -5  > window.innerHeight) { 
-    document.getElementById('Player.png').style.top = '100px' 
+if (parseInt(document.getElementById('Player').style.top) -5  > window.innerHeight) { 
+    document.getElementById('Player').style.top = '100px' 
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
 }
 
 
-  if(myHitOther('Player.png', 'mySpan02')){
-    document.getElementById('mySpan02').style.left = '-400px'
+  if(myHitOther('Player', 'Wall02')){
+    document.getElementById('Wall02').style.left = '-400px'
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
   }
 
-  if(myHitOther('Player.png', 'mySpan03')){
-    document.getElementById('mySpan03').style.left = '-400px'
+  if(myHitOther('Player', 'Wall03')){
+    document.getElementById('Wall03').style.left = '-400px'
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
   }
 
-  if(myHitOther('Player.png', 'mySpan04')){
-    document.getElementById('mySpan04').style.left = '-400px'
+  if(myHitOther('Player', 'Wall04')){
+    document.getElementById('Wall04').style.left = '-400px'
     alert('You Lose!')
     location = 'T4A17-flappy-bird-AadenW.html'
   }
 
+  if(myHitOther('Player', 'Wall05')){
+    document.getElementById('Wall05').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
 
+  if(myHitOther('Player', 'Wall06')){
+    document.getElementById('Wall06').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
 
-  if(myHitOther('Player.png', 'mySpan200')){
-    document.getElementById('mySpan03').style.left = '-400px'
+  if(myHitOther('Player', 'Wall07')){
+    document.getElementById('Wall07').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Wall08')){
+    document.getElementById('Wall08').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Wall09')){
+    document.getElementById('Wall09').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Wall10')){
+    document.getElementById('Wall10').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Wall11')){
+    document.getElementById('Wall11').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+ 
+  if(myHitOther('Player', 'Wall12')){
+    document.getElementById('Wall12').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Wall13')){
+    document.getElementById('Wall13').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Wall14')){
+    document.getElementById('Wall14').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+  
+  if(myHitOther('Player', 'Wall15')){
+    document.getElementById('Wall15').style.left = '-400px'
+    alert('You Lose!')
+    location = 'T4A17-flappy-bird-AadenW.html'
+  }
+
+  if(myHitOther('Player', 'Star')){
+    document.getElementById('Star').style.left = '-400px'
     alert('You Win!')
     location = 'https://google.ca'
   }
+
 
   // your other checks go here
 
@@ -86,14 +151,38 @@ if (parseInt(document.getElementById('Player.png').style.top) -5  > window.inner
 
 function myXAuto(){
 
-  document.getElementById('Player.png').style.top = parseInt(document.getElementById('Player.png').style.top) + document.myGravity
+  document.getElementById('Player').style.top = parseInt(document.getElementById('Player').style.top) + document.myGravity
 
-  document.getElementById('mySpan02').style.left = parseInt(document.getElementById('mySpan02').style.left) + document.myXmove 
+  document.getElementById('Wall02').style.left = parseInt(document.getElementById('Wall02').style.left) + document.myXmove 
  
-  document.getElementById('mySpan03').style.left = parseInt(document.getElementById('mySpan03').style.left) + document.myXmove 
+  document.getElementById('Wall03').style.left = parseInt(document.getElementById('Wall03').style.left) + document.myXmove 
 
-   document.getElementById('mySpan04').style.left = parseInt(document.getElementById('mySpan04').style.left) + document.myXmove 
+  document.getElementById('Wall04').style.left = parseInt(document.getElementById('Wall04').style.left) + document.myXmove
+
+  document.getElementById('Wall05').style.left = parseInt(document.getElementById('Wall05').style.left) + document.myXmove
+
+  document.getElementById('Wall06').style.left = parseInt(document.getElementById('Wall06').style.left) + document.myXmove 
  
+  document.getElementById('Wall07').style.left = parseInt(document.getElementById('Wall07').style.left) + document.myXmove 
+
+  document.getElementById('Wall08').style.left = parseInt(document.getElementById('Wall08').style.left) + document.myXmove 
+  
+  document.getElementById('Wall09').style.left = parseInt(document.getElementById('Wall09').style.left) + document.myXmove
+
+  document.getElementById('Wall10').style.left = parseInt(document.getElementById('Wall10').style.left) + document.myXmove 
+ 
+  document.getElementById('Wall11').style.left = parseInt(document.getElementById('Wall11').style.left) + document.myXmove 
+
+  document.getElementById('Wall12').style.left = parseInt(document.getElementById('Wall12').style.left) + document.myXmove
+  
+  document.getElementById('Wall13').style.left = parseInt(document.getElementById('Wall13').style.left) + document.myXmove 
+
+  document.getElementById('Wall14').style.left = parseInt(document.getElementById('Wall14').style.left) + document.myXmove  
+  
+  document.getElementById('Wall15').style.left = parseInt(document.getElementById('Wall15').style.left) + document.myXmove
+
+  document.getElementById('Star').style.left = parseInt(document.getElementById('Star').style.left) + document.myXmove 
+
 
   myCheckAll()
 }
@@ -108,7 +197,7 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 
 
 
-   <h3 align+center>Version 0.0.5</h3>
+   <h3 align+center>Version 0.0.2</h3>
 <h1 align=center>T4A17-flappy-bird-AadenW.html</h1>
 
 
@@ -121,16 +210,38 @@ document.myXtimer = setInterval( myXAuto , document.myXspeed);
 -->
 
 
-<img src="Player.png" style="position:absolute; left:100; top:150; width:45; height:30">
-    </img><br>
-<span title="2"  id="mySpan02" style="position:absolute; left:900; top:100; width:45; height:30"> 
-   Span 2 </span><br>
-<span title="3"  id="mySpan03" style="position:absolute; left:900; top:300; width:45; height:30"> 
-   Span 3 </span><br>
+<img  id="Player"  src="Player.png"  style="position:absolute; left:100; top:150; width:45; height:45"/>
 
-<span title="4"  id="mySpan04" style="position:absolute; left:1100; top:150; width:45; height:30"> 
-   Span 3 </span><br>
+<img  id="Wall02"  src="Wall.png"  style="position:absolute; left:900; top:100; width:85; height:130"/> 
+ 
+<img  id="Wall03"  src="Wall.png"  style="position:absolute; left:900; top:360; width:85; height:100"/> 
 
+<img  id="Wall04"  src="Wall.png"  style="position:absolute; left:1100; top:150; width:85; height:100"/>
+
+<img  id="Wall05"  src="Wall.png"  style="position:absolute; left:1100; top:410; width:85; height:100"/> 
+
+<img  id="Wall06"  src="Wall.png"  style="position:absolute; left:1500; top:150; width:85; height:130"/> 
+
+<img  id="Wall07"  src="Wall.png"  style="position:absolute; left:1500; top:410; width:85; height:100"/> 
+
+<img  id="Wall08"  src="Wall.png"  style="position:absolute; left:1700; top:80; width:85; height:100"/> 
+
+<img  id="Wall09"  src="Wall.png"  style="position:absolute; left:1700; top:340; width:85; height:100"/> 
+
+<img  id="Wall10"  src="Wall.png"  style="position:absolute; left:2000; top:180; width:85; height:100"/> 
+
+<img  id="Wall11"  src="Wall.png"  style="position:absolute; left:2000; top:440; width:85; height:100"/>
+
+<img  id="Wall12"  src="Wall.png"  style="position:absolute; left:2200; top:110; width:85; height:100"/> 
+
+<img  id="Wall13"  src="Wall.png"  style="position:absolute; left:2200; top:360; width:85; height:100"/>  
+
+<img  id="Wall14"  src="Wall.png"  style="position:absolute; left:2400; top:180; width:85; height:100"/> 
+
+<img  id="Wall15"  src="Wall.png"  style="position:absolute; left:2400; top:440; width:85; height:100"/>
+
+<img  id="Star"  src="Star.png"  style="position:absolute; left:2700; top:360; width:100; height:100"/>  
+  
 
 
 
